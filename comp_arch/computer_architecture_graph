@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="node" attr.name="module" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="Number Systems">
+  <data key="d0">topic</data>
+  <data key="d1">M1</data>
+</node>
+<node id="FC:Number Systems">
+  <data key="d0">flashcards</data>
+  <data key="d1">M1</data>
+</node>
+<node id="Boolean Logic">
+  <data key="d0">topic</data>
+  <data key="d1">M1</data>
+</node>
+<node id="FC:Boolean Logic">
+  <data key="d0">flashcards</data>
+  <data key="d1">M1</data>
+</node>
+<node id="Sequential Logic">
+  <data key="d0">topic</data>
+  <data key="d1">M1</data>
+</node>
+<node id="FC:Sequential Logic">
+  <data key="d0">flashcards</data>
+  <data key="d1">M1</data>
+</node>
+<node id="ALU Design">
+  <data key="d0">topic</data>
+  <data key="d1">M1</data>
+</node>
+<node id="FC:ALU Design">
+  <data key="d0">flashcards</data>
+  <data key="d1">M1</data>
+</node>
+<node id="Memory Elements">
+  <data key="d0">topic</data>
+  <data key="d1">M1</data>
+</node>
+<node id="FC:Memory Elements">
+  <data key="d0">flashcards</data>
+  <data key="d1">M1</data>
+</node>
+<node id="Instruction Set">
+  <data key="d0">topic</data>
+  <data key="d1">M1</data>
+</node>
+<node id="FC:Instruction Set">
+  <data key="d0">flashcards</data>
+  <data key="d1">M1</data>
+</node>
+<node id="CPU Datapath">
+  <data key="d0">topic</data>
+  <data key="d1">M1</data>
+</node>
+<node id="FC:CPU Datapath">
+  <data key="d0">flashcards</data>
+  <data key="d1">M1</data>
+</node>
+<node id="Simple Computer">
+  <data key="d0">topic</data>
+  <data key="d1">M1</data>
+</node>
+<node id="FC:Simple Computer">
+  <data key="d0">flashcards</data>
+  <data key="d1">M1</data>
+</node>
+<node id="AS:Foundations Quiz">
+  <data key="d0">assessment</data>
+  <data key="d1">M1</data>
+</node>
+<node id="PR:Build Simple CPU">
+  <data key="d0">project</data>
+  <data key="d1">M1</data>
+</node>
+<node id="ISA Basics">
+  <data key="d0">topic</data>
+  <data key="d1">M2</data>
+</node>
+<node id="FC:ISA Basics">
+  <data key="d0">flashcards</data>
+  <data key="d1">M2</data>
+</node>
+<node id="Assembly">
+  <data key="d0">topic</data>
+  <data key="d1">M2</data>
+</node>
+<node id="FC:Assembly">
+  <data key="d0">flashcards</data>
+  <data key="d1">M2</data>
+</node>
+<node id="Procedure Calls">
+  <data key="d0">topic</data>
+  <data key="d1">M2</data>
+</node>
+<node id="FC:Procedure Calls">
+  <data key="d0">flashcards</data>
+  <data key="d1">M2</data>
+</node>
+<node id="Compilation">
+  <data key="d0">topic</data>
+  <data key="d1">M2</data>
+</node>
+<node id="FC:Compilation">
+  <data key="d0">flashcards</data>
+  <data key="d1">M2</data>
+</node>
+<node id="Compiler Phases">
+  <data key="d0">topic</data>
+  <data key="d1">M2</data>
+</node>
+<node id="FC:Compiler Phases">
+  <data key="d0">flashcards</data>
+  <data key="d1">M2</data>
+</node>
+<node id="Linking &amp; Loading">
+  <data key="d0">topic</data>
+  <data key="d1">M2</data>
+</node>
+<node id="FC:Linking &amp; Loading">
+  <data key="d0">flashcards</data>
+  <data key="d1">M2</data>
+</node>
+<node id="AS:ISA &amp; Assembly Quiz">
+  <data key="d0">assessment</data>
+  <data key="d1">M2</data>
+</node>
+<node id="PR:Toy Compiler">
+  <data key="d0">project</data>
+  <data key="d1">M2</data>
+</node>
+<node id="Performance Metrics">
+  <data key="d0">topic</data>
+  <data key="d1">M3</data>
+</node>
+<node id="FC:Performance Metrics">
+  <data key="d0">flashcards</data>
+  <data key="d1">M3</data>
+</node>
+<node id="Pipelining">
+  <data key="d0">topic</data>
+  <data key="d1">M3</data>
+</node>
+<node id="FC:Pipelining">
+  <data key="d0">flashcards</data>
+  <data key="d1">M3</data>
+</node>
+<node id="Pipeline Hazards">
+  <data key="d0">topic</data>
+  <data key="d1">M3</data>
+</node>
+<node id="FC:Pipeline Hazards">
+  <data key="d0">flashcards</data>
+  <data key="d1">M3</data>
+</node>
+<node id="Branch Prediction">
+  <data key="d0">topic</data>
+  <data key="d1">M3</data>
+</node>
+<node id="FC:Branch Prediction">
+  <data key="d0">flashcards</data>
+  <data key="d1">M3</data>
+</node>
+<node id="Out‑of‑Order">
+  <data key="d0">topic</data>
+  <data key="d1">M3</data>
+</node>
+<node id="FC:Out‑of‑Order">
+  <data key="d0">flashcards</data>
+  <data key="d1">M3</data>
+</node>
+<node id="Pipeline Case Study">
+  <data key="d0">topic</data>
+  <data key="d1">M3</data>
+</node>
+<node id="FC:Pipeline Case Study">
+  <data key="d0">flashcards</data>
+  <data key="d1">M3</data>
+</node>
+<node id="AS:Microarchitecture Quiz">
+  <data key="d0">assessment</data>
+  <data key="d1">M3</data>
+</node>
+<node id="Memory Hierarchy">
+  <data key="d0">topic</data>
+  <data key="d1">M4</data>
+</node>
+<node id="FC:Memory Hierarchy">
+  <data key="d0">flashcards</data>
+  <data key="d1">M4</data>
+</node>
+<node id="Caches">
+  <data key="d0">topic</data>
+  <data key="d1">M4</data>
+</node>
+<node id="FC:Caches">
+  <data key="d0">flashcards</data>
+  <data key="d1">M4</data>
+</node>
+<node id="Cache Policies">
+  <data key="d0">topic</data>
+  <data key="d1">M4</data>
+</node>
+<node id="FC:Cache Policies">
+  <data key="d0">flashcards</data>
+  <data key="d1">M4</data>
+</node>
+<node id="Virtual Memory">
+  <data key="d0">topic</data>
+  <data key="d1">M4</data>
+</node>
+<node id="FC:Virtual Memory">
+  <data key="d0">flashcards</data>
+  <data key="d1">M4</data>
+</node>
+<node id="OS Memory Management">
+  <data key="d0">topic</data>
+  <data key="d1">M4</data>
+</node>
+<node id="FC:OS Memory Management">
+  <data key="d0">flashcards</data>
+  <data key="d1">M4</data>
+</node>
+<node id="Storage">
+  <data key="d0">topic</data>
+  <data key="d1">M4</data>
+</node>
+<node id="FC:Storage">
+  <data key="d0">flashcards</data>
+  <data key="d1">M4</data>
+</node>
+<node id="AS:Memory Quiz">
+  <data key="d0">assessment</data>
+  <data key="d1">M4</data>
+</node>
+<node id="OS Overview">
+  <data key="d0">topic</data>
+  <data key="d1">M5</data>
+</node>
+<node id="FC:OS Overview">
+  <data key="d0">flashcards</data>
+  <data key="d1">M5</data>
+</node>
+<node id="Process Management">
+  <data key="d0">topic</data>
+  <data key="d1">M5</data>
+</node>
+<node id="FC:Process Management">
+  <data key="d0">flashcards</data>
+  <data key="d1">M5</data>
+</node>
+<node id="CPU Scheduling">
+  <data key="d0">topic</data>
+  <data key="d1">M5</data>
+</node>
+<node id="FC:CPU Scheduling">
+  <data key="d0">flashcards</data>
+  <data key="d1">M5</data>
+</node>
+<node id="Threads">
+  <data key="d0">topic</data>
+  <data key="d1">M5</data>
+</node>
+<node id="FC:Threads">
+  <data key="d0">flashcards</data>
+  <data key="d1">M5</data>
+</node>
+<node id="Synchronization">
+  <data key="d0">topic</data>
+  <data key="d1">M5</data>
+</node>
+<node id="FC:Synchronization">
+  <data key="d0">flashcards</data>
+  <data key="d1">M5</data>
+</node>
+<node id="Device Management">
+  <data key="d0">topic</data>
+  <data key="d1">M5</data>
+</node>
+<node id="FC:Device Management">
+  <data key="d0">flashcards</data>
+  <data key="d1">M5</data>
+</node>
+<node id="OS Case Study">
+  <data key="d0">topic</data>
+  <data key="d1">M5</data>
+</node>
+<node id="FC:OS Case Study">
+  <data key="d0">flashcards</data>
+  <data key="d1">M5</data>
+</node>
+<node id="AS:Operating Systems Quiz">
+  <data key="d0">assessment</data>
+  <data key="d1">M5</data>
+</node>
+<node id="Protocol Layers">
+  <data key="d0">topic</data>
+  <data key="d1">M6</data>
+</node>
+<node id="FC:Protocol Layers">
+  <data key="d0">flashcards</data>
+  <data key="d1">M6</data>
+</node>
+<node id="Application Layer">
+  <data key="d0">topic</data>
+  <data key="d1">M6</data>
+</node>
+<node id="FC:Application Layer">
+  <data key="d0">flashcards</data>
+  <data key="d1">M6</data>
+</node>
+<node id="Transport Layer">
+  <data key="d0">topic</data>
+  <data key="d1">M6</data>
+</node>
+<node id="FC:Transport Layer">
+  <data key="d0">flashcards</data>
+  <data key="d1">M6</data>
+</node>
+<node id="Network Layer">
+  <data key="d0">topic</data>
+  <data key="d1">M6</data>
+</node>
+<node id="FC:Network Layer">
+  <data key="d0">flashcards</data>
+  <data key="d1">M6</data>
+</node>
+<node id="Link Layer">
+  <data key="d0">topic</data>
+  <data key="d1">M6</data>
+</node>
+<node id="FC:Link Layer">
+  <data key="d0">flashcards</data>
+  <data key="d1">M6</data>
+</node>
+<node id="NIC Interaction">
+  <data key="d0">topic</data>
+  <data key="d1">M6</data>
+</node>
+<node id="FC:NIC Interaction">
+  <data key="d0">flashcards</data>
+  <data key="d1">M6</data>
+</node>
+<node id="Distributed Systems">
+  <data key="d0">topic</data>
+  <data key="d1">M6</data>
+</node>
+<node id="FC:Distributed Systems">
+  <data key="d0">flashcards</data>
+  <data key="d1">M6</data>
+</node>
+<node id="AS:Networking Quiz">
+  <data key="d0">assessment</data>
+  <data key="d1">M6</data>
+</node>
+<node id="Parallel Computing">
+  <data key="d0">topic</data>
+  <data key="d1">M7</data>
+</node>
+<node id="FC:Parallel Computing">
+  <data key="d0">flashcards</data>
+  <data key="d1">M7</data>
+</node>
+<node id="Security">
+  <data key="d0">topic</data>
+  <data key="d1">M7</data>
+</node>
+<node id="FC:Security">
+  <data key="d0">flashcards</data>
+  <data key="d1">M7</data>
+</node>
+<node id="Emerging Arch">
+  <data key="d0">topic</data>
+  <data key="d1">M7</data>
+</node>
+<node id="FC:Emerging Arch">
+  <data key="d0">flashcards</data>
+  <data key="d1">M7</data>
+</node>
+<node id="PR:Capstone Project">
+  <data key="d0">project</data>
+  <data key="d1">M7</data>
+</node>
+<node id="Toy Compiler"/>
+<node id="Build Simple CPU"/>
+<edge source="Number Systems" target="FC:Number Systems"/>
+<edge source="Number Systems" target="Boolean Logic"/>
+<edge source="Number Systems" target="AS:Foundations Quiz"/>
+<edge source="Boolean Logic" target="FC:Boolean Logic"/>
+<edge source="Boolean Logic" target="Sequential Logic"/>
+<edge source="Boolean Logic" target="AS:Foundations Quiz"/>
+<edge source="Sequential Logic" target="FC:Sequential Logic"/>
+<edge source="Sequential Logic" target="ALU Design"/>
+<edge source="Sequential Logic" target="Memory Elements"/>
+<edge source="Sequential Logic" target="AS:Foundations Quiz"/>
+<edge source="ALU Design" target="FC:ALU Design"/>
+<edge source="ALU Design" target="Instruction Set"/>
+<edge source="ALU Design" target="AS:Foundations Quiz"/>
+<edge source="ALU Design" target="PR:Build Simple CPU"/>
+<edge source="Memory Elements" target="FC:Memory Elements"/>
+<edge source="Memory Elements" target="Instruction Set"/>
+<edge source="Memory Elements" target="AS:Foundations Quiz"/>
+<edge source="Memory Elements" target="PR:Build Simple CPU"/>
+<edge source="Instruction Set" target="FC:Instruction Set"/>
+<edge source="Instruction Set" target="CPU Datapath"/>
+<edge source="Instruction Set" target="AS:Foundations Quiz"/>
+<edge source="Instruction Set" target="ISA Basics"/>
+<edge source="CPU Datapath" target="FC:CPU Datapath"/>
+<edge source="CPU Datapath" target="Simple Computer"/>
+<edge source="CPU Datapath" target="AS:Foundations Quiz"/>
+<edge source="CPU Datapath" target="PR:Build Simple CPU"/>
+<edge source="CPU Datapath" target="ISA Basics"/>
+<edge source="CPU Datapath" target="Performance Metrics"/>
+<edge source="CPU Datapath" target="OS Overview"/>
+<edge source="Simple Computer" target="FC:Simple Computer"/>
+<edge source="Simple Computer" target="AS:Foundations Quiz"/>
+<edge source="Simple Computer" target="PR:Build Simple CPU"/>
+<edge source="ISA Basics" target="FC:ISA Basics"/>
+<edge source="ISA Basics" target="Assembly"/>
+<edge source="ISA Basics" target="AS:ISA &amp; Assembly Quiz"/>
+<edge source="ISA Basics" target="Security"/>
+<edge source="Assembly" target="FC:Assembly"/>
+<edge source="Assembly" target="Procedure Calls"/>
+<edge source="Assembly" target="Compilation"/>
+<edge source="Assembly" target="AS:ISA &amp; Assembly Quiz"/>
+<edge source="Assembly" target="PR:Toy Compiler"/>
+<edge source="Procedure Calls" target="FC:Procedure Calls"/>
+<edge source="Procedure Calls" target="AS:ISA &amp; Assembly Quiz"/>
+<edge source="Compilation" target="FC:Compilation"/>
+<edge source="Compilation" target="Compiler Phases"/>
+<edge source="Compilation" target="AS:ISA &amp; Assembly Quiz"/>
+<edge source="Compiler Phases" target="FC:Compiler Phases"/>
+<edge source="Compiler Phases" target="Linking &amp; Loading"/>
+<edge source="Compiler Phases" target="AS:ISA &amp; Assembly Quiz"/>
+<edge source="Compiler Phases" target="PR:Toy Compiler"/>
+<edge source="Linking &amp; Loading" target="FC:Linking &amp; Loading"/>
+<edge source="Linking &amp; Loading" target="AS:ISA &amp; Assembly Quiz"/>
+<edge source="Linking &amp; Loading" target="PR:Toy Compiler"/>
+<edge source="Performance Metrics" target="FC:Performance Metrics"/>
+<edge source="Performance Metrics" target="Pipelining"/>
+<edge source="Performance Metrics" target="AS:Microarchitecture Quiz"/>
+<edge source="Pipelining" target="FC:Pipelining"/>
+<edge source="Pipelining" target="Pipeline Hazards"/>
+<edge source="Pipelining" target="Branch Prediction"/>
+<edge source="Pipelining" target="AS:Microarchitecture Quiz"/>
+<edge source="Pipelining" target="Memory Hierarchy"/>
+<edge source="Pipelining" target="Parallel Computing"/>
+<edge source="Pipelining" target="Emerging Arch"/>
+<edge source="Pipeline Hazards" target="FC:Pipeline Hazards"/>
+<edge source="Pipeline Hazards" target="Branch Prediction"/>
+<edge source="Pipeline Hazards" target="AS:Microarchitecture Quiz"/>
+<edge source="Branch Prediction" target="FC:Branch Prediction"/>
+<edge source="Branch Prediction" target="Out‑of‑Order"/>
+<edge source="Branch Prediction" target="AS:Microarchitecture Quiz"/>
+<edge source="Out‑of‑Order" target="FC:Out‑of‑Order"/>
+<edge source="Out‑of‑Order" target="Pipeline Case Study"/>
+<edge source="Out‑of‑Order" target="AS:Microarchitecture Quiz"/>
+<edge source="Pipeline Case Study" target="FC:Pipeline Case Study"/>
+<edge source="Pipeline Case Study" target="AS:Microarchitecture Quiz"/>
+<edge source="Memory Hierarchy" target="FC:Memory Hierarchy"/>
+<edge source="Memory Hierarchy" target="Caches"/>
+<edge source="Memory Hierarchy" target="Virtual Memory"/>
+<edge source="Memory Hierarchy" target="Storage"/>
+<edge source="Memory Hierarchy" target="AS:Memory Quiz"/>
+<edge source="Memory Hierarchy" target="Parallel Computing"/>
+<edge source="Memory Hierarchy" target="Emerging Arch"/>
+<edge source="Caches" target="FC:Caches"/>
+<edge source="Caches" target="Cache Policies"/>
+<edge source="Caches" target="AS:Memory Quiz"/>
+<edge source="Cache Policies" target="FC:Cache Policies"/>
+<edge source="Cache Policies" target="AS:Memory Quiz"/>
+<edge source="Virtual Memory" target="FC:Virtual Memory"/>
+<edge source="Virtual Memory" target="OS Memory Management"/>
+<edge source="Virtual Memory" target="AS:Memory Quiz"/>
+<edge source="Virtual Memory" target="OS Overview"/>
+<edge source="Virtual Memory" target="Security"/>
+<edge source="OS Memory Management" target="FC:OS Memory Management"/>
+<edge source="OS Memory Management" target="AS:Memory Quiz"/>
+<edge source="OS Memory Management" target="OS Overview"/>
+<edge source="Storage" target="FC:Storage"/>
+<edge source="Storage" target="AS:Memory Quiz"/>
+<edge source="OS Overview" target="FC:OS Overview"/>
+<edge source="OS Overview" target="Process Management"/>
+<edge source="OS Overview" target="Device Management"/>
+<edge source="OS Overview" target="AS:Operating Systems Quiz"/>
+<edge source="OS Overview" target="Protocol Layers"/>
+<edge source="OS Overview" target="NIC Interaction"/>
+<edge source="OS Overview" target="Security"/>
+<edge source="Process Management" target="FC:Process Management"/>
+<edge source="Process Management" target="CPU Scheduling"/>
+<edge source="Process Management" target="Threads"/>
+<edge source="Process Management" target="AS:Operating Systems Quiz"/>
+<edge source="CPU Scheduling" target="FC:CPU Scheduling"/>
+<edge source="CPU Scheduling" target="OS Case Study"/>
+<edge source="CPU Scheduling" target="AS:Operating Systems Quiz"/>
+<edge source="Threads" target="FC:Threads"/>
+<edge source="Threads" target="Synchronization"/>
+<edge source="Threads" target="AS:Operating Systems Quiz"/>
+<edge source="Threads" target="Distributed Systems"/>
+<edge source="Threads" target="Parallel Computing"/>
+<edge source="Synchronization" target="FC:Synchronization"/>
+<edge source="Synchronization" target="OS Case Study"/>
+<edge source="Synchronization" target="AS:Operating Systems Quiz"/>
+<edge source="Device Management" target="FC:Device Management"/>
+<edge source="Device Management" target="OS Case Study"/>
+<edge source="Device Management" target="AS:Operating Systems Quiz"/>
+<edge source="OS Case Study" target="FC:OS Case Study"/>
+<edge source="OS Case Study" target="AS:Operating Systems Quiz"/>
+<edge source="OS Case Study" target="PR:Capstone Project"/>
+<edge source="Protocol Layers" target="FC:Protocol Layers"/>
+<edge source="Protocol Layers" target="Link Layer"/>
+<edge source="Protocol Layers" target="Network Layer"/>
+<edge source="Protocol Layers" target="Transport Layer"/>
+<edge source="Protocol Layers" target="Application Layer"/>
+<edge source="Protocol Layers" target="AS:Networking Quiz"/>
+<edge source="Application Layer" target="FC:Application Layer"/>
+<edge source="Application Layer" target="Distributed Systems"/>
+<edge source="Application Layer" target="AS:Networking Quiz"/>
+<edge source="Transport Layer" target="FC:Transport Layer"/>
+<edge source="Transport Layer" target="Application Layer"/>
+<edge source="Transport Layer" target="AS:Networking Quiz"/>
+<edge source="Network Layer" target="FC:Network Layer"/>
+<edge source="Network Layer" target="Transport Layer"/>
+<edge source="Network Layer" target="AS:Networking Quiz"/>
+<edge source="Link Layer" target="FC:Link Layer"/>
+<edge source="Link Layer" target="Network Layer"/>
+<edge source="Link Layer" target="NIC Interaction"/>
+<edge source="Link Layer" target="AS:Networking Quiz"/>
+<edge source="NIC Interaction" target="FC:NIC Interaction"/>
+<edge source="NIC Interaction" target="AS:Networking Quiz"/>
+<edge source="Distributed Systems" target="FC:Distributed Systems"/>
+<edge source="Distributed Systems" target="AS:Networking Quiz"/>
+<edge source="Distributed Systems" target="PR:Capstone Project"/>
+<edge source="Parallel Computing" target="FC:Parallel Computing"/>
+<edge source="Parallel Computing" target="PR:Capstone Project"/>
+<edge source="Security" target="FC:Security"/>
+<edge source="Security" target="PR:Capstone Project"/>
+<edge source="Emerging Arch" target="FC:Emerging Arch"/>
+<edge source="Emerging Arch" target="PR:Capstone Project"/>
+<edge source="Toy Compiler" target="PR:Capstone Project"/>
+<edge source="Build Simple CPU" target="PR:Capstone Project"/>
+</graph></graphml>
