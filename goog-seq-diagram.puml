@@ -1,0 +1,49 @@
+@startuml
+actor User
+participant "Browser" as B
+participant "OS DNS Cache" as OSCache
+participant "Home Wi-Fi Adapter" as WiFi
+participant "AT&T Router (Gateway)" as Router
+participant "AT&T ISP DNS Resolver" as DNS
+participant "Google CDN" as CDN
+participant "Google Web Server" as GWS
+participant "TCP/TLS Stack" as TLS
+
+User -> B: Type "www.google.com" and hit Enter
+B -> OSCache: Check DNS cache
+OSCache --> B: Cache miss
+
+B -> WiFi: Send DNS request
+WiFi -> Router: Forward DNS request (192.168.1.1)
+Router -> DNS: Forward to AT&T DNS resolver
+DNS --> Router: Return IP address for www.google.com
+Router --> WiFi: Forward DNS response
+WiFi --> B: IP address received
+
+B -> TLS: Start TCP handshake
+TLS -> WiFi: SYN
+WiFi -> Router: SYN
+Router -> CDN: SYN (to IP from DNS)
+CDN --> Router: SYN-ACK
+Router --> WiFi: SYN-ACK
+WiFi --> TLS: SYN-ACK
+TLS --> CDN: ACK (TCP connection complete)
+
+TLS -> CDN: Start TLS handshake
+CDN --> TLS: TLS handshake complete
+
+B -> CDN: Send HTTPS GET request to www.google.com
+alt CDN has cached content
+    CDN --> B: Return HTML, assets
+else
+    CDN -> GWS: Fetch content from origin server
+    GWS --> CDN: Return HTML, assets
+    CDN --> B: Return HTML, assets
+end
+
+B -> B: Parse HTML
+B -> B: Fetch CSS, JS, images (possibly from CDN)
+B -> B: Build DOM and Render
+
+B -> User: Display Google homepage
+@enduml
