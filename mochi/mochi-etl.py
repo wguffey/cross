@@ -57,8 +57,14 @@ for (blob,) in src.execute(
 
     for r in td["~:reviews"]:
         cur_pg.execute(
-            """INSERT INTO reviews(card_id,review_at,rating,interval_days,ease)
-               VALUES (%s,%s,%s,%s,%s)""",
+            """
+            INSERT INTO reviews (card_id, review_at, rating, interval_days, ease)
+            VALUES (%s, %s, %s, %s, %s)
+            ON CONFLICT (card_id, review_at) DO UPDATE
+            SET rating        = EXCLUDED.rating,
+                interval_days = EXCLUDED.interval_days,
+                ease          = EXCLUDED.ease;
+        """,
             (
                 td["~:id"],
                 ms_to_dt(r["~:date"]),
