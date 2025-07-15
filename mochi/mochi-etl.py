@@ -1,4 +1,11 @@
-import sqlite3, json, math, datetime as dt, psycopg2, os, pathlib
+import datetime as dt
+import json
+import math
+import os
+import pathlib
+import sqlite3
+
+import psycopg2
 
 SRC_DB = pathlib.Path("mochi.db")
 PG_DSN = os.getenv(
