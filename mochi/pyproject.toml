@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mochi-analytics"
+version = "0.1.0"
+description = "Extract and transform mochi data."
+authors = ["Will Guffey <guffeywilliam@gmail.com>"]
+readme = "README.md"
+
+packages = [{include = "mochi_analytics"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psycopg2-binary = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+mochi-etl = "mochi_analytics.etl:run"
