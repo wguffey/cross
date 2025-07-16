@@ -82,12 +82,13 @@ def run():
         for r in td["~:reviews"]:
             cur_pg.execute(
                 """
-                INSERT INTO reviews (card_id, review_at, rating, interval_days, ease)
-                VALUES (%s, %s, %s, %s, %s)
+                INSERT INTO reviews (card_id, review_at, rating, interval_days, ease, duration_s)
+                VALUES (%s, %s, %s, %s, %s, %s)
                 ON CONFLICT (card_id, review_at) DO UPDATE
                 SET rating        = EXCLUDED.rating,
                     interval_days = EXCLUDED.interval_days,
-                    ease          = EXCLUDED.ease;
+                    ease          = EXCLUDED.ease,
+                    duration_s   = EXCLUDED.duration_s;
             """,
                 (
                     td["~:id"],
@@ -96,6 +97,7 @@ def run():
                     or ("good" if r.get("~:remembered?") else "fail"),
                     interval_of(r),
                     r.get("~:ease"),
+                    r.get("~:duration"),
                 ),
             )
 
