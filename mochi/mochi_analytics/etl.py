@@ -11,7 +11,7 @@ USER = os.environ["USER"]
 SRC_DB = pathlib.Path(
     f"/Users/{USER}/Library/Application Support/mochi/mochi.db"
 )
-PG_DSN = "postgresql://mochi:secret@localhost:5432/mochidb"
+PG_DSN = os.getenv("PG_DSN_MOCHI")
 MS_DAY = 86_400_000
 
 
