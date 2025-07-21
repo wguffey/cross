@@ -8,11 +8,11 @@ source /Users/williamguffey/workspace/cross/mochi-venv/bin/activate
 python -m mochi_analytics.export_stats
 
 # 2. Push that JSON to website repo
-cd public_site        # this is a git clone of your website repo
+cd public_site
 git add stats/mochi_daily.json
 if ! git diff --cached --quiet; then
   git config user.name  "mochi bot"
-  git config user.email "bot@example.com"
+  git config user.email "guffeywilliam@gmail.com"
   git commit -m "Update Mochi stats $(date '+%Y-%m-%d')"
-  git push https://$PAGES_PAT@github.com/you/your-website.git main
+  git push https://$PAGES_PAT@github.com/wguffey/wguffey-website.git main
 fi
