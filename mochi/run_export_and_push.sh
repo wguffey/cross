@@ -2,7 +2,7 @@
 set -e
 
 cd /Users/williamguffey/workspace/cross/mochi || exit 1
-source /Users/williamguffey/workspace/cross/mochi-venv/bin/activate
+source /Users/williamguffey/.pyenv/versions/mochi-venv/bin/activate
 
 # 1. Run exporter (JSON lands in ./public_site/stats)
 python -m mochi_analytics.export_stats
