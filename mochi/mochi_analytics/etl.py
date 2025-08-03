@@ -1,3 +1,7 @@
+"""
+Extract from raw mochidb and put in postgreSQL database.
+"""
+
 import datetime as dt
 import json
 import math

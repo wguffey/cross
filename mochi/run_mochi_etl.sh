@@ -1,17 +1,12 @@
 #!/bin/bash
-cd /Users/williamguffey/workspace/cross/mochi || exit 1
-
-# find Poetry once
-# POETRY_BIN=$(command -v poetry)
-# if [[ -z $POETRY_BIN ]]; then
-#   echo "Poetry not found in PATH" >&2
-#   exit 2
-# fi
-
-# echo "$(date '+%Y-%m-%d %H:%M:%S')  —  cron launch" >> etl.log
+set -e
 {
   echo
-  echo "$(date '+%Y-%m-%d %H:%M:%S')  —  cron launch"
+  echo "$(date '+%Y-%m-%d %H:%M:%S')  —  running run_mochi_etl.sh"
 } >> etl.log
 
-/Users/williamguffey/miniconda3/bin/poetry run mochi-etl >> etl.log 2>&1
+cd /Users/williamguffey/workspace/cross/mochi || exit 1
+source ~/.mochi_env
+source /Users/williamguffey/.pyenv/versions/mochi-venv/bin/activate
+
+/Users/williamguffey/miniconda3/bin/poetry run mochi-etl 2>&1 | /opt/homebrew/bin/ts '[%Y-%m-%d %H:%M:%S]' >> etl.log

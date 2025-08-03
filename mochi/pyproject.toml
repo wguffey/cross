@@ -19,3 +19,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 mochi-etl = "mochi_analytics.etl:run"
+mochi-export = "mochi_analytics.export_stats:run"

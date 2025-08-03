@@ -1,4 +1,4 @@
-### Setup
+# Setup
 
 ```bash
 git clone https://github.com/you/mochi-analytics.git
